@@ -2,7 +2,6 @@ import styles from './Reviews.module.scss'
 
 interface Review {
   name: string
-  since: string
   stars: number
   text: string
   photo?: string
@@ -11,37 +10,31 @@ interface Review {
 const reviews: Review[] = [
   {
     name: 'Maria K.',
-    since: 'Student since 2023',
     stars: 5,
     text: "I tried three other teachers before Andrew. In six weeks with ChordLogic I finally understood chord progressions — not just where to put my fingers, but why it sounds the way it does.",
   },
   {
     name: 'Tom R.',
-    since: 'Student since 2022',
     stars: 5,
     text: "The spaced repetition approach genuinely works. I used to forget things between lessons. Now they compound. It's night and day.",
   },
   {
     name: 'Priya S.',
-    since: 'Student since 2024',
     stars: 5,
     text: "Andrew's method demystified music theory for me. I always thought it was dry and academic — turns out it's the most practical tool in a musician's kit.",
   },
   {
     name: 'James L.',
-    since: 'Student since 2023',
     stars: 5,
     text: "Busy professional with 30 minutes a day. Andrew built a curriculum around that constraint and I've made more progress than I did in two years of traditional lessons.",
   },
   {
     name: 'Sonya M.',
-    since: 'Student since 2024',
     stars: 5,
     text: "The ear training component changed everything. I can hear a song now and understand its structure immediately. That never happened before.",
   },
   {
     name: 'Chris B.',
-    since: 'Student since 2022',
     stars: 5,
     text: "First lesson is free and it absolutely sold me. Andrew diagnosed my exact weaknesses in 45 minutes and laid out a clear path forward.",
   },
@@ -82,7 +75,6 @@ export default function Reviews() {
               <Avatar review={r} />
               <div>
                 <div className={styles.name}>{r.name}</div>
-                <div className={styles.since}>{r.since}</div>
               </div>
             </footer>
           </article>
