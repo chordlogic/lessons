@@ -44,7 +44,14 @@ export default function CalModal({ open, onClose, theme }: CalModalProps) {
         theme: theme,
         hideEventTypeDetails: true,
         layout: 'month_view',
-        styles: { branding: { brandColor: '#c9a84c' } },
+        cssVarsPerTheme: {
+          light: {
+            'cal-brand': '#c9a84c',
+          },
+          dark: {
+            'cal-brand': '#c9a84c',
+          },
+        },
       })
     })()
   }, [theme])
