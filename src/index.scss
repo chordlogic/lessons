@@ -12,6 +12,7 @@
   --text:          #{v.$dark-text};
   --text-muted:    #{v.$dark-text-muted};
   --text-faint:    #{v.$dark-text-faint};
+  --nav-bg:        rgba(13, 13, 11, 0.85);
 
   --font-sans:  #{v.$font-sans};
   --font-serif: #{v.$font-serif};
@@ -38,6 +39,7 @@
   --text:          #{v.$light-text};
   --text-muted:    #{v.$light-text-muted};
   --text-faint:    #{v.$light-text-faint};
+  --nav-bg:        rgba(247, 244, 239, 0.8);
 }
 
 *, *::before, *::after {

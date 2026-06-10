@@ -10,14 +10,10 @@
 }
 
 .nav.scrolled {
-  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  background: var(--nav-bg);
   border-color: var(--border);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-}
-
-:global([data-theme='light']) .nav.scrolled {
-  background: color-mix(in srgb, var(--bg) 70%, transparent);
 }
 
 .inner {
