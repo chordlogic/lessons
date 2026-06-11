@@ -9,7 +9,7 @@ interface Review {
 
 const reviews: Review[] = [
   {
-    name: 'Maria K.',
+    name: 'Max M.',
     stars: 5,
     text: "I tried three other teachers before Andrew. In six weeks with ChordLogic I finally understood chord progressions — not just where to put my fingers, but why it sounds the way it does.",
   },

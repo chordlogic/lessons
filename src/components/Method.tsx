@@ -57,8 +57,7 @@ export default function Method() {
           ))}
         </div>
         <blockquote className={styles.quote}>
-          "Music theory is not a constraint — it's the roadmap that makes
-          everything click at once."
+          "Learn the rules like a pro so you can break them like a virtuoso."
           <cite>— Andrew Varnavsky</cite>
         </blockquote>
       </div>
